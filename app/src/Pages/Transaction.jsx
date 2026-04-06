@@ -73,7 +73,7 @@ const Transaction = () => {
           {/* Button */}
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+            className="w-full bg-black text-white py-2 rounded-lg hover:bg-yellow-400 transition"
           >
             Update
           </button>
