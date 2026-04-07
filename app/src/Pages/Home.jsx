@@ -4,25 +4,9 @@ import Navbar from '../Components/Navbar'
 
 const Home = () => {
   return (
-    <div>
-
-
-        <div>
-
-            <div>
-                <Navbar active="home"/>
-            </div>
-
-
-            <div>
-                <Transaction/>
-            </div>
-
-        </div>
-        
-
-
-      
+    <div className="min-h-screen bg-slate-100">
+      <Navbar active="home"/>
+      <Transaction/>
     </div>
   )
 }
